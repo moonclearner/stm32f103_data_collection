@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS -I..\USER -I..\Driver\inc -I E:\keil\ARM\RV31\Inc -I E:\keil\ARM\CMSIS\Include -I E:\keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\object\usart.o" --omf_browse "..\object\usart.crf" --depend "..\object\usart.d" "..\Driver\src\usart.c"
